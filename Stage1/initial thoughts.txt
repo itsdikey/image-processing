@@ -1,11 +1,11 @@
-applying mean filter with radius 2 then using binary filter has good results ✔
-applying mean filter with radius 2 after using binary filter results in a mess ❌
-apply median after applying the binary filter makes beatiful blobs while removing unnesecary details ✔
-applying median before applying binary filter results in better contrasted regions ✔
-applying median and then mean results and then  in nice result ✔
-gaussian filter with radii 5 and then binary filter results in pretty interesting results, but there is detoriation on some sides ✔❌
-gaussian filter with radii 2 and then binary filter results in pretty interesting results, with reduced deteriation ✔
-applying mean filter with radius 2 then gaussian filter with radius 2 results in pretty nice contours ✔
-
-
-
+1) applying mean filter with radius 2 then using binary filter has good results ✔
+2) applying mean filter with radius 2 after using binary filter results in a mess ❌
+3) apply median after applying the binary filter makes beatiful blobs while removing unnesecary details ✔
+4) applying median before applying binary filter results in better contrasted regions ✔
+5) applying median and then mean and then binary filter results in nice result ✔
+6) gaussian filter with radii 5 and then binary filter results in pretty interesting results, but there is detoriation on some sides ✔❌
+7) gaussian filter with radii 2 and then binary filter results in pretty interesting results, with reduced deteriation ✔
+8) applying mean filter with radius 2 then gaussian filter with radius 2 results in pretty nice contours ✔
+9) reapplying median after all those fillters seems to significantly improve results ✔
+Please under folder Stage 1, Processed find images processed with the methods described above
+The naming is as follows (usedmethodname)bl(binaryfilternumber).tif
