@@ -1,0 +1,1 @@
+applying mean filter with radius 2 then using binary filter has good results
