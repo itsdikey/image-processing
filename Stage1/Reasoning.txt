@@ -1,0 +1,6 @@
+So we know the comon behaviour that face relevant colors have. But it appears that when we apply binary filter it is kinda separated. 
+That's why we mix colors together, so what we know if color A and B have the FRC color behaviour, then their mean will have the same behaviour too. By filling those separated sections with means we get smoother sections.
+On the other note after applying filter we can always apply median filter to get better defined contour. As it will select black on the areas surronded by black, and white on areas where white is prominent color.
+On the other other note, other way to mix colors is gaussian blur while it won't mix as well as we want, but we might get useful results.
+
+
