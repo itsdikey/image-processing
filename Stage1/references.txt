@@ -1,0 +1,7 @@
+Eye Detection paper https://www.researchgate.net/publication/229032397_A_Novel_Algorithm_on_Facial_Color_Images_for_Detection_Eyes
+Grayscale dilation and errosion http://www.cyto.purdue.edu/cdroms/micro2/content/education/wirth08.pdf
+YCbCr
+https://en.wikipedia.org/wiki/YCbCr
+https://sistenix.com/rgb2ycbcr.html
+https://stackoverflow.com/questions/4041840/function-to-convert-ycbcr-to-rgb
+https://discoverybiz.net/enu0/faq/faq_YUVDataRangeByBreeze.html
