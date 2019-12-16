@@ -1,0 +1,23 @@
+The filter name is FinishedFilter.java in Stage0 -> A09140447
+
+Note that binary layer 3 selects some region around the lips and ears, and the lips are always down from centroidY, that we derived as average of both centroids of binaryLayer0 and binaryLayer1
+
+Further experiments via manual calculations show that lips are around 6% of the face
+
+So on binarylayer3 we will select the min of all pixels using neighborhood 0.06 * area which is moment00 in my case.
+
+However this method was overselecting -> find image OverSelected under folder LipDetection
+
+To further improve results coefficient 0.04 was used which was closer to real lips -> find image AlmostCorrect under folder LipDetection
+
+To finally get right, notice that in binarylayer1 lips are white, so to select the right area let's only choose the pixels that are black in our filtered image and white in binaryLayer1. -> image: LipsJitteryFound
+
+To get rid of jitterish we can further use median filter.
+
+After that, centroid is calculated using moments, then using the centroid an ellipse is calculated to enclose the lips.
+
+ 
+
+
+
+ 
